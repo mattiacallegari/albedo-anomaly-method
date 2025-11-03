@@ -15,11 +15,12 @@ Contains input datasets required for the albedo-anomaly method:
 
 #### Input Data
 - **`Hugonnet2021/`** — Geodetic glacier mass balance estimates (2000–2019)  
-  Source: *Hugonnet et al. (2021)*
-- **`rgi60/`** — Glacier outlines from the **Randolph Glacier Inventory v6.0**
+  Source: [*Hugonnet et al. (2021)*](https://doi.org/10.1038/s41586-021-03436-z) 
+- **`rgi60/`** — Glacier outlines from the **Randolph Glacier Inventory v6.0**  
+  Source: [RGIv6.0](https://nsidc.org/data/nsidc-0770/versions/6)
 
 #### Output Data
-- **Annual mass balance time series** for all land-terminating, non-surging glaciers larger than 0.5 km², located in:
+- **`albedo-anomaly_method_annual_gmb`/** - Annual mass balance time series for all land-terminating, non-surging glaciers larger than 0.5 km², located in:
   - European Alps  
   - Scandinavia  
   - Svalbard
@@ -45,14 +46,9 @@ Ensure your project has the appropriate permissions and asset storage for export
 
 To run the notebook and scripts, you’ll need Python ≥ 3.8 and the following packages:
 
-`ee`
-
-`geemap`
-
-`pandas`
-
-`geopandas`
-
-`shapely`
-
+`ee`  
+`geemap`  
+`pandas`  
+`geopandas`  
+`shapely`  
 `matplotlib`
